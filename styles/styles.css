@@ -9,7 +9,7 @@
 }
 
 body::-webkit-scrollbar {
-    width: 0.8em;
+    width: 0.6em;
     background-color: transparent;
 }
 
@@ -31,6 +31,12 @@ body {
     font-family: "BasisGrotesquePro", sans-serif;
     overflow-x: hidden;
     background-color: black;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    /* letter-spacing: 0.5px; */
 }
 
 h1 {
@@ -188,6 +194,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5em;
+    padding: 0 10vw;
 }
 
 .project {
@@ -208,38 +215,43 @@ header {
 
 /* background gradients */
 
-#deltahacks {
-    background: -webkit-linear-gradient(left, #06254E, #146395);
+#studyspot {
+    background: -webkit-linear-gradient(left, #8c78f0, #5c22ba);
+
 }
 
-#deltahacks:hover {
-    background: -webkit-linear-gradient(left, #0a3872, #1a74ac);
+#studyspot:hover {
+    background: -webkit-linear-gradient(left, #9e8cf9, #7135d1);
 }
 
 #doodle {
-    background: -webkit-linear-gradient(left, #9732B3, #2204A9);
-
+    background: -webkit-linear-gradient(left, #082982, #2176cb);
 }
 
 #doodle:hover {
-    background: -webkit-linear-gradient(left, #af39d0, #2b08c9);
+    background: -webkit-linear-gradient(left, #11369b, #4696e6);
 }
 
 
 #robotics {
-    background: -webkit-linear-gradient(left, #094865, #36988E);
+    background: -webkit-linear-gradient(left, #49b8c7, #39a1af);
+    padding-bottom: 2em;
 }
 
 #robotics:hover {
-    background: -webkit-linear-gradient(left, #0b597d, #43b3a7);
+    background: -webkit-linear-gradient(left, #5cc8d7, #44afbd);
 }
 
 #turbine {
-    background: -webkit-linear-gradient(left, #094865, #36988E);
+    background: -webkit-linear-gradient(left, rgb(92, 91, 91) , rgb(138, 138, 138));
 }
 
 #turbine:hover {
-    background: -webkit-linear-gradient(left, #0b597d, #43b3a7);
+    background: -webkit-linear-gradient(left, rgb(123, 123, 123) , rgb(161, 161, 161));
+}
+
+.dropshadow{
+    filter: drop-shadow(0 0 0.6rem black);
 }
 
 
@@ -299,19 +311,33 @@ header {
     /* max-height: 30em; */
     width: auto;
     height: auto;
-
     max-width: 100%;
+}
+
+.image3 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 100% 50%;
+    border-radius: 1em;
+    max-height: 50em;
 }
 
 
 
 .description {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-family: "Inter", sans-serif;
+    /* font-family: "BasisGrotesquePro", sans-serif; */
+
 }
 
 
-
+.subtitle{
+    font-size: 1.3em;
+    font-weight: bold;
+}
 
 
 
@@ -322,8 +348,8 @@ header {
 .hidden {
     opacity: 0;
     transform: translateX(-100%);
-    transition: all 0.6s;
-    transform: scale(0);
+    transition: all 0.5s;
+    transform: scale(0.2);
 }
 
 
@@ -362,9 +388,11 @@ header {
 
 
 .aboutdescription {
-    font-size: 25px;
-
+    font-size: 22px;
 }
+
+
+
 
 .profileimg {
     width: 30em;
