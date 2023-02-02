@@ -24,8 +24,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
-
-
 body {
     font-family: "Inter", sans-serif;
     font-family: "BasisGrotesquePro", sans-serif;
@@ -108,6 +106,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding-left: 13vw;
+    padding-top: 2%;
 }
 
 #name {
