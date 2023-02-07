@@ -209,10 +209,10 @@ header {
     display: grid;
     gap: 3rem;
     background: -webkit-linear-gradient(left, #252525, #190262);
-    padding: 3vw;
+    padding: 4vw;
     border-radius: 2em;
     position: relative;
-    padding-bottom: 0;
+    padding-bottom: 1vw;
     transition: 0.3s;
 }
 
@@ -251,11 +251,11 @@ header {
 }
 
 #turbine {
-    background: -webkit-linear-gradient(left, rgb(92, 91, 91), rgb(138, 138, 138));
+    background: -webkit-linear-gradient(left, rgb(70, 69, 69), rgb(116, 115, 115));
 }
 
 #turbine:hover {
-    background: -webkit-linear-gradient(left, rgb(123, 123, 123), rgb(161, 161, 161));
+    background: -webkit-linear-gradient(left, rgb(108, 107, 107), rgb(141, 141, 141));
 }
 
 .dropshadow {
