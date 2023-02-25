@@ -186,7 +186,6 @@ header {
     padding-right: 13vw;
     padding-top: 13vw;
     gap: 5em;
-
 }
 
 .title {
@@ -196,13 +195,13 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    font-family: "BasisGrotesquePro", sans-serif;
 }
 
 .projectcards {
     display: flex;
     flex-direction: column;
-    gap: 5em;
+    gap: 8em;
     padding: 0 10vw;
 }
 
@@ -497,7 +496,7 @@ header {
     }
 
     #name {
-        letter-spacing: 5px;
+        letter-spacing: 1px;
         font-size: 16vw;
         width: 60%;
         -webkit-text-fill-color: transparent;
@@ -526,7 +525,7 @@ header {
 
         padding-top: 13vw;
         gap: 5em;
-
+        font-family: "Inter", sans-serif;
     }
 
     .title {
@@ -551,7 +550,7 @@ header {
     .projecttitle {
 
         font-size: 6vw;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
 
@@ -607,6 +606,7 @@ header {
         font-size: 4vw;
         font-weight: bold;
         margin-bottom: 1em;
+        letter-spacing: 1px;
     }
 
 
@@ -636,7 +636,7 @@ header {
 
 
     #name {
-        letter-spacing: 5px;
+        letter-spacing: 1px;
         font-size: 10vw;
         width: 60%;
         -webkit-text-fill-color: transparent;
@@ -663,6 +663,7 @@ header {
         padding-right: 13vw;
         padding-top: 13vw;
         gap: 5em;
+        font-family: "Inter", sans-serif;
     }
 
     .title {
@@ -687,7 +688,7 @@ header {
     .projecttitle {
 
         font-size: 4vw;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
 
@@ -735,6 +736,7 @@ header {
     .subtitle {
         font-size: 2.5vw;
         font-weight: bold;
+        letter-spacing: 1px;
     }
 
 
